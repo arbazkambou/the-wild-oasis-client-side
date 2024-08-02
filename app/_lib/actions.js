@@ -26,7 +26,7 @@ function response(errorState, message) {
   return data;
 }
 function validateNationalID(id) {
-  const regex = /^[a-zA-Z0-9]{6,12}$/;
+  const regex = /^[a-zA-Z0-9]{6,14}$/;
   return regex.test(id);
 }
 
